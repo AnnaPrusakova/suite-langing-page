@@ -1,0 +1,23 @@
+@import '../styles/variables.module.scss';
+
+.headerWrapper {
+    width: 1108px;
+    height: 56px;
+    margin: 0 auto;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.btnWrapper {
+    float: left;
+}
+
+.headerText {
+    font-weight: 900;
+    font-size: $headling-L / 2;
+    color: $dark-blue;
+}

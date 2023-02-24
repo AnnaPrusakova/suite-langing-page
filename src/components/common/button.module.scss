@@ -1,0 +1,19 @@
+@import '../../styles/variables.module.scss';
+
+.btnSecondaryWrapper {
+    width: 219px;
+    height: 56px;
+    background-color: transparent;
+    border: 1px $dark-blue solid;
+    border-radius: 6px;
+    cursor: pointer;
+    color: $dark-blue;
+    font-weight: 700;
+    font-size: $headling-S;
+}
+
+
+.btnSecondaryWrapper:hover {
+    background-color: $dark-blue;
+    color: $white;
+}
