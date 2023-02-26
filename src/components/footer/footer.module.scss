@@ -1,0 +1,40 @@
+@import '../../styles/variables.module.scss';
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 32px;
+    margin: 70px 140px;
+}
+
+.footerLogo {
+    width: 81px;
+    font-weight: 900;
+    font-size: $headling-L / 2;
+    color: $dark-blue;
+}
+
+.footerText {
+    width: 160px;
+    color: $dark-gray;
+    font-size: $headling-S;
+}
+
+.socials {
+    height: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.social {
+    margin-left: 28px;
+    cursor: pointer;
+}
+
+.social:hover {
+    opacity: 0.5;
+}
