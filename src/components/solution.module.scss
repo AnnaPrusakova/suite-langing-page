@@ -1,0 +1,86 @@
+@import '../styles/variables.module.scss';
+
+.solutionWrapper {
+    width: 1100px;
+    height: 600px;
+    margin: 15% auto;
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    gap: 350px;
+}
+
+.fistBlock {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    z-index: 99;
+}
+
+.title {
+    width: 645px;
+    height: 156px;  
+    font-weight: 300;
+    color: $dark-blue;
+    font-size: $headling-XL;
+    line-height: 78px;
+    letter-spacing: -1px;
+}
+
+.boldTitle {
+    font-weight: 900;
+}
+
+.supText {
+    width: 350px;
+    height: 96px;
+    margin-top: 40px;
+    font-weight: 100;
+    font-size: $headling-M;
+    line-height: 32px;
+    color: $dark-gray;
+    letter-spacing: 0.1px;
+}
+
+.btn {
+    margin-top: 50px;
+}
+
+.curveLine {
+    position: absolute;
+    left: 31%;
+    top: 45%;
+    z-index: 99;
+}
+
+.imgHero {
+    position: absolute;
+    left: 43%;
+    top: 30%;
+}
+
+.secondBlock {
+    display: flex;
+    color: $dark-blue;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.boldNumber {
+    height: 56px;
+    font-weight: 700;
+    font-size: $headling-L;
+    line-height: 56px;
+    letter-spacing: -0.5 px;
+}
+
+.infoWrapper {
+    margin-bottom: 63px;
+}
+
+.numberInfo {
+    color: $dark-gray;
+    letter-spacing: 2.5px;
+    font-weight: 400;
+    font-size: $headling-S;
+}

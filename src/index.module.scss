@@ -1,19 +1,14 @@
-@import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Epilogue');
 @import './styles/variables.module.scss';
 
 
 :root {
-  font-family: Epilogue, Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-family: Epilogue, sans-serif;
   line-height: 1.5;
-  font-weight: 400;
-
+  font-style: normal;
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
   background-color: $baige;
-
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-text-size-adjust: 100%;
 }
 
 a {
@@ -30,11 +25,6 @@ body {
   min-width: 320px;
   min-height: 100vh;
   background-color: $baige;
-}
-
-h1 {
-  font-size: 3.2em;
-  line-height: 1.1;
 }
 
 @media (prefers-color-scheme: light) {

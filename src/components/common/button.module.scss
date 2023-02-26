@@ -17,3 +17,20 @@
     background-color: $dark-blue;
     color: $white;
 }
+
+.btnDefault {
+    width: 256px;
+    height: 61px;
+    background-color: $dark-blue;
+    color: $white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: 700;
+    font-size: $headling-S;
+}
+
+
+.btnDefault:hover {
+    background: linear-gradient(159deg, $pink 56%, $orange);
+}

@@ -1,6 +1,10 @@
+import styles from './button.module.scss';
+
 const ButtonDefault: React.FC<{}> = () => {
     return(
-        <button>Request Beta Access</button>
+        <button className={styles.btnDefault}>
+            <div>Request Beta Access</div>
+        </button>
     );
 };
 
