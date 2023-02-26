@@ -1,7 +1,7 @@
-import ButtonDefault from './common/ButtonDefault';
+import ButtonDefault from '../common/ButtonDefault';
 import styles from './solution.module.scss';
-import Line  from '../assets/pattern-curved-line-1.svg';
-import Hero from '../assets/image-hero-portrait.png';
+import Line  from '../../assets/pattern-curved-line-1.svg';
+import Hero from '../../assets/image-hero-portrait.png';
 
 const Solution: React.FC<{}> = () => {
     return (

@@ -1,9 +1,9 @@
-@import '../styles/variables.module.scss';
+@import '../../styles/variables.module.scss';
 
 .solutionWrapper {
     width: 1100px;
     height: 600px;
-    margin: 15% auto;
+    margin: 200px auto 0;
     display: grid;
     grid-template-columns: repeat(2, 50%);
     gap: 350px;
@@ -48,15 +48,15 @@
 
 .curveLine {
     position: absolute;
-    left: 31%;
-    top: 45%;
+    left: 490px;
+    top: 230px;
     z-index: 99;
 }
 
 .imgHero {
     position: absolute;
     left: 43%;
-    top: 30%;
+    top: 150px;
 }
 
 .secondBlock {

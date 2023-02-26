@@ -1,7 +1,7 @@
 import Footer from "./Footer";
-import Header from "./Header";
-import Review from "./Review";
-import Solution from "./Solution";
+import Header from "./header/Header";
+import Review from "./review/Review";
+import Solution from "./solution/Solution";
 import styles from './main.module.scss';
 
 const MainPage: React.FC<{}> = () => {

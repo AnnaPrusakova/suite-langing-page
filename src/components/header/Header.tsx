@@ -1,4 +1,4 @@
-import ButtonSecondary from "./common/ButtonSecondary";
+import ButtonSecondary from "../common/ButtonSecondary";
 import styles from './header.module.scss';
 
 const Header: React.FC<{}> = () => {

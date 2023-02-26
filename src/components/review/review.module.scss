@@ -1,0 +1,67 @@
+@import '../../styles/variables.module.scss';
+
+.reviewWrapper {
+    position: relative;
+    height: 545px;
+    background-color: $dark-blue;
+    border-radius: 15px;
+    margin: 199px 140px 0;
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    gap: 150px;
+}
+
+.jeremyImg {
+    position: absolute;
+    left: 13%;
+    bottom: 1px;
+}
+
+.line {
+    position: absolute;
+    left: 50%;
+    top: 30%;   
+}
+
+.review {
+    margin-top: 10px;
+}
+
+.title {
+    margin-top: 80px;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 56px;
+    letter-spacing: -0.5px;
+    color: $white;
+}
+
+.boldTitle {
+    font-weight: 900;
+}
+
+.text {
+    width: 300px;
+    margin-top: 40px;
+    font-weight: 400;
+    font-size: $quote-font-size;
+    line-height: 35px;
+    letter-spacing: 0.1px;
+}
+
+.authorReview {
+    margin-top: 40px;
+}
+
+.author {
+    font-weight: 700;
+    font-size: $body-font-size;
+    line-height: 32px;
+}
+
+.position {
+    font-weight: 400;
+    font-size: $headling-S;
+    line-height: 26px;
+    letter-spacing: 2.5px;
+}
