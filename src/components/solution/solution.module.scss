@@ -84,3 +84,49 @@
     font-weight: 400;
     font-size: $headling-S;
 }
+
+@media (max-width: 768px) {
+    .solutionWrapper {
+        width: 689px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 300px;
+    }
+
+    .title {
+        width: 445px;
+        height: 100px;  
+        font-size: $headling-L;
+        line-height: 58px;
+    }
+
+    .supText {
+        width: 350px;
+        height: 76px;
+        margin-top: 30px;
+        font-weight: 100;
+        font-size: $headling-S;
+        line-height: 22px;
+    }
+
+    .curveLine {
+        left: 190px;
+    }
+
+    .imgHero {
+        left: 50%;
+        top: 150px;
+    }
+
+    .btn {
+        margin-top: 20px;
+    }
+
+    .secondBlock {
+        display: grid;
+        grid-template-columns: repeat(3, 50%);
+        gap: 50px;
+        justify-items: center;
+    }
+}

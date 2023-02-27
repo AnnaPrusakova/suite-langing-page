@@ -8,7 +8,7 @@ const Review: React.FC<{}> = () => {
         <div className={styles.reviewWrapper}>
             <div>
                 <img className={styles.jeremyImg} src={Jeremy} alt={'jeremy'} />
-                <img src={Blur} alt={'blur'} />
+                <img className={styles.blur} src={Blur} alt={'blur'} />
             </div>
                 <img className={styles.line} src={Line} alt={'line'}/>
             <div className={styles.review}>

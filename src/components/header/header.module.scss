@@ -21,3 +21,9 @@
     font-size: $headling-L / 2;
     color: $dark-blue;
 }
+
+@media (max-width: 768px) {
+    .headerWrapper {
+        width: 689px;
+    }
+}

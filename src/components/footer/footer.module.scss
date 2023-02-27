@@ -6,13 +6,14 @@
     justify-content: space-between;
     align-items: center;
     height: 32px;
-    margin: 70px 140px;
+    margin: 100px 40px;
+    padding-bottom: 70px;
 }
 
 .footerLogo {
     width: 81px;
     font-weight: 900;
-    font-size: $headling-L / 2;
+    font-size: calc($headling-L / 2);
     color: $dark-blue;
 }
 
