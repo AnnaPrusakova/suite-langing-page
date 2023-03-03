@@ -1,11 +1,11 @@
-import styles from './button.module.scss';
+import styles from './button.module.scss'
 
 const ButtonSecondary: React.FC<{}> = () => {
-    return(
+    return (
         <button className={styles.btnSecondaryWrapper}>
             <div>Request Beta Access</div>
         </button>
     )
 }
 
-export default ButtonSecondary;
+export default ButtonSecondary

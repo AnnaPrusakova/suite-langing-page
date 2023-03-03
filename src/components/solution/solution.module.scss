@@ -12,7 +12,7 @@
     display: flex;
     flex-direction: row;
     align-items: flex-start;
-    padding: 2.7rem 0px;
+    padding: -176px 0px;
     gap: 40px;
     min-height: 600px;
     min-width: 500px;
@@ -47,14 +47,14 @@
 
 .solution::before {
     display: block;
-    content: " ";
+    content: ' ';
     background-image: url(../../assets/pattern-curved-line-1.svg);
     background-size: contain;
     height: 100%;
     width: 100%;
     background-repeat: no-repeat;
     position: absolute;
-    top: -2rem;
+    top: -32px;
 }
 
 .supText {
@@ -101,28 +101,28 @@
         margin-top: 100px;
         flex-direction: column;
     }
-   .title {
-    width: 550px;
-    font-size: calc($headling-L * 1.2);
-    line-height: 64px;
-   }
+    .title {
+        width: 550px;
+        font-size: calc($headling-L * 1.2);
+        line-height: 64px;
+    }
 
-   .supText {
-    max-width: 340px;
-    font-size: $headling-S;
-    line-height: 28px;
-   }
+    .supText {
+        max-width: 340px;
+        font-size: $headling-S;
+        line-height: 28px;
+    }
 
-   .imgHero {
-    margin-left: 30px;
-    margin-top: -80px;
-   }
+    .imgHero {
+        margin-left: 30px;
+        margin-top: -80px;
+    }
 
-   .secondBlock {
-    flex-direction: row;
-    justify-content: space-between;
-    gap: 8px;
-   }
+    .secondBlock {
+        flex-direction: row;
+        justify-content: space-between;
+        gap: 8px;
+    }
 }
 
 @media (max-width: 375px) {
@@ -162,5 +162,5 @@
         flex-direction: column;
         align-items: center;
         gap: 32px;
-   }
+    }
 }
