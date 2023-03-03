@@ -23,16 +23,21 @@ Users should be able to:
 ### Screenshot
 
 #### Desktop
-![Desktop-1](./landing-page/src/assets/examples/Desktop-1.png)
-![Desktop-2](./landing-page/src/assets/examples/Desktop-2.png)
+
+![Desktop-1](./src/assets/examples/Desktop-1.png)
+![Desktop-2](./src/assets/examples/Desktop-2.png)
+
 #### Tablet
-![Tablet-1](./landing-page/src/assets/examples/Tablet-1.png)
-![Tablet-2](./landing-page/src/assets/examples/Tablet-2.png)
-![Tablet-3](./landing-page/src/assets/examples/Tablet-3.png)
+
+![Tablet-1](./src/assets/examples/Tablet-1.png)
+![Tablet-2](./src/assets/examples/Tablet-2.png)
+![Tablet-3](./src/assets/examples/Tablet-3.png)
+
 #### Mobile
-![Mobile-1](./landing-page/src/assets/examples/Mobile-1.png)
-![Mobile-2](./landing-page/src/assets/examples/Mobile-2.png)
-![Mobile-3](./landing-page/src/assets/examples/Mobile-3.png)
+
+![Mobile-1](./src/assets/examples/Mobile-1.png)
+![Mobile-2](./src/assets/examples/Mobile-2.png)
+![Mobile-3](./src/assets/examples/Mobile-3.png)
 
 ### Links
 
