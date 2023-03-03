@@ -1,132 +1,98 @@
 @import '../../styles/variables.module.scss';
 
 .solutionWrapper {
-    width: 1100px;
-    height: 600px;
-    margin: 200px auto 0;
-    display: grid;
-    grid-template-columns: repeat(2, 50%);
-    gap: 350px;
+    max-width: 1110px;
+    margin: auto;
+    padding: 0px 39px;
+    display: flex;
+    flex-direction: row;
 }
 
 .fistBlock {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 2.7rem 0px;
+    gap: 40px;
+    min-height: 600px;
+    min-width: 500px;
+}
+
+.titleBlock {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 40px;
+    align-items: flex-start;
+    position: relative;
+    margin-right: -50%;
+}
+
+.title {
+    width: 635px;
+    font-size: $headling-XL;
+    line-height: 78px;
+}
+
+.title strong {
+    font-weight: 700;
+}
+
+.solution {
+    font-weight: 700;
+    position: relative;
+    display: inline-block;
+}
+
+.solution::before {
+    display: block;
+    content: " ";
+    background-image: url(../../assets/pattern-curved-line-1.svg);
+    background-size: contain;
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: -2rem;
+}
+
+.supText {
+    max-width: 38%;
+    color: $dark-gray;
+    font-size: $headling-M;
+    line-height: 32px;
+}
+
+.imgHero {
+    display: block;
+    max-height: 600px;
+    max-width: 350px;
+}
+
+.imgHeroLandscape {
+    display: none;
+    align-self: center;
+}
+
+.secondBlock {
     position: relative;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    z-index: 99;
-}
-
-.title {
-    width: 645px;
-    height: 156px;  
-    font-weight: 300;
-    color: $dark-blue;
-    font-size: $headling-XL;
-    line-height: 78px;
-    letter-spacing: -1px;
-}
-
-.boldTitle {
-    font-weight: 900;
-}
-
-.supText {
-    width: 350px;
-    height: 96px;
-    margin-top: 40px;
-    font-weight: 100;
-    font-size: $headling-M;
-    line-height: 32px;
-    color: $dark-gray;
-    letter-spacing: 0.1px;
-}
-
-.btn {
-    margin-top: 50px;
-}
-
-.curveLine {
-    position: absolute;
-    left: 490px;
-    top: 230px;
-    z-index: 99;
-}
-
-.imgHero {
-    position: absolute;
-    left: 43%;
-    top: 150px;
-}
-
-.secondBlock {
-    display: flex;
-    color: $dark-blue;
-    flex-direction: column;
-    align-items: flex-start;
-}
-
-.boldNumber {
-    height: 56px;
-    font-weight: 700;
-    font-size: $headling-L;
-    line-height: 56px;
-    letter-spacing: -0.5 px;
+    justify-content: space-evenly;
+    gap: 8px;
 }
 
 .infoWrapper {
-    margin-bottom: 63px;
-}
-
-.numberInfo {
     color: $dark-gray;
-    letter-spacing: 2.5px;
-    font-weight: 400;
     font-size: $headling-S;
+    line-height: 26px;
 }
 
-@media (max-width: 768px) {
-    .solutionWrapper {
-        width: 689px;
-        display: flex;
-        flex-direction: column;
-        align-items: flex-start;
-        gap: 300px;
-    }
-
-    .title {
-        width: 445px;
-        height: 100px;  
-        font-size: $headling-L;
-        line-height: 58px;
-    }
-
-    .supText {
-        width: 350px;
-        height: 76px;
-        margin-top: 30px;
-        font-weight: 100;
-        font-size: $headling-S;
-        line-height: 22px;
-    }
-
-    .curveLine {
-        left: 190px;
-    }
-
-    .imgHero {
-        left: 50%;
-        top: 150px;
-    }
-
-    .btn {
-        margin-top: 20px;
-    }
-
-    .secondBlock {
-        display: grid;
-        grid-template-columns: repeat(3, 50%);
-        gap: 50px;
-        justify-items: center;
-    }
+.boldNumber {
+    color: $dark-blue;
+    font-weight: 700;
+    font-size: $headling-L;
+    line-height: 56px;
 }

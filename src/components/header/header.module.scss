@@ -1,29 +1,12 @@
 @import '../../styles/variables.module.scss';
 
 .headerWrapper {
-    width: 1108px;
-    height: 56px;
-    margin: 0 auto;
-}
-
-.header {
+    max-width: 1110px;
     display: flex;
-    align-items: center;
+    flex-direction: row;
+    -webkit-box-pack: justify;
     justify-content: space-between;
-}
-
-.btnWrapper {
-    float: left;
-}
-
-.headerText {
-    font-weight: 900;
-    font-size: $headling-L / 2;
-    color: $dark-blue;
-}
-
-@media (max-width: 768px) {
-    .headerWrapper {
-        width: 689px;
-    }
+    -webkit-box-align: center;
+    align-items: center;
+    margin: 40px auto 80px;
 }

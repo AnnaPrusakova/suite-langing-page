@@ -1,9 +1,15 @@
-import MainPage from './components/MainPage'
+import Footer from "./components/footer/Footer";
+import Header from "./components/header/Header";
+import Solution from "./components/solution/Solution";
 
 function App() {
   return (
-      <MainPage />
+    <>
+      <Header />
+      <Solution />
+      <Footer />
+    </>
   )
 }
 
-export default App
+export default App;

@@ -2,12 +2,91 @@
 
 .footer {
     display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 450px;
+    background-color: $baige;
+}
+
+.backgroundWrapper {
+    max-width: 1110px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.reviewWrapper {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap: 40px;
+    max-width: 1110px;
+    margin: -300px auto 0;
+    align-items: center;
+    background-image: url(../../assets/pattern-blur.svg);
+    background-repeat: no-repeat;
+    border-radius: 15px;
+    background-color: $dark-blue;
+    color: $white;
+    background-position: 35px 78px;
+}
+
+.jeremyImg {
+    margin-top: -3rem;
+    height: 590px;
+    width: 361px;
+}
+
+.line {
+    align-self: flex-start;
+    margin-top: 160px;
+}
+
+.review {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 40px;
+    position: relative;
+    align-items: flex-start;
+    max-width: 35%;
+    padding-bottom: 88px;
+}
+
+.title {
+    font-size: $headling-L;
+    line-height: 56px;
+}
+
+.title strong {
+    font-weight: 700;
+}
+
+.text {
+    font-size: $quote-font-size;
+    line-height: 35px;
+}
+
+.author {
+    font-weight: 700;
+    font-size: $body-font-size;
+    line-height: 32px;
+}
+
+.position {
+    font-size: $headling-S;
+    line-height: 26px;
+}
+
+.footerWrapper {
+    display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
     height: 32px;
-    margin: 100px 40px;
+    margin: 100px 0 0;
     padding-bottom: 70px;
+    background-color: $baige;
 }
 
 .footerLogo {
@@ -39,3 +118,4 @@
 .social:hover {
     opacity: 0.5;
 }
+

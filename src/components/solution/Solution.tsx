@@ -1,18 +1,20 @@
 import ButtonDefault from '../common/ButtonDefault';
 import styles from './solution.module.scss';
-import Line  from '../../assets/pattern-curved-line-1.svg';
-import Hero from '../../assets/image-hero-portrait.png';
+import HeroPortrait from '../../assets/image-hero-portrait.png';
+import HeroLandscape from '../../assets/image-hero-landscape.png';
 
 const Solution: React.FC<{}> = () => {
     return (
-        <div className={styles.solutionWrapper}>
-             <img className={styles.curveLine} src={Line} alt="curve-line"/>
+        <main className={styles.solutionWrapper}>
             <div className={styles.fistBlock}>
-                <span className={styles.title}>A <span className={styles.boldTitle}>super solution</span> for your <span  className={styles.boldTitle}>business.</span></span>
-                <div className={styles.supText}>Our marketing and sales automations help you scale your outreach to get more leads for your company.</div>
-                <div className={styles.btn}><ButtonDefault /></div>
+                <div className={styles.titleBlock}>
+                    <h1 className={styles.title}>A <strong>super</strong> <span className={styles.solution}>solution</span> for your <strong>business.</strong></h1>
+                    <p className={styles.supText}>Our marketing and sales automations help you scale your outreach to get more leads for your company.</p>
+                    <div className={styles.btn}><ButtonDefault /></div>
+                </div>
+                <div><img className={styles.imgHeroLandscape} src={HeroLandscape} alt="hero"/></div>
+                <div><img className={styles.imgHero} src={HeroPortrait} alt="hero"/></div>
             </div>
-            <img className={styles.imgHero} src={Hero} alt="hero"/>
             <div className={styles.secondBlock}>
                 <div className={styles.infoWrapper}>
                     <div className={styles.boldNumber}>2K+</div>
@@ -27,7 +29,7 @@ const Solution: React.FC<{}> = () => {
                     <div>LEADS</div>
                 </div>
             </div>
-        </div>
+        </main>
     );
 }
 
