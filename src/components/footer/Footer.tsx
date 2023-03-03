@@ -3,6 +3,7 @@ import Facebook from '../../assets/icon-facebook.svg';
 import Twitter from '../../assets/icon-twitter.svg';
 import Instagram from '../../assets/icon-instagram.svg';
 import Jeremy from '../../assets/image-jeremy-large.png';
+import JeremySmall from '../../assets/image-jeremy-small.png';
 import Line from '../../assets/pattern-curved-line-2.svg';
 import Logo from '../../assets/logo.svg';
 
@@ -13,7 +14,8 @@ const Footer: React.FC<{}> = () => {
             <div className={styles.backgroundWrapper}>
             <div className={styles.reviewWrapper}>
             <div className={styles.jeremyImg}>
-                <img src={Jeremy} alt={'jeremy'} />
+                <img  className={styles.jeremySmall} src={JeremySmall} alt="Jeremy Robinson's photo" />
+                <img className={styles.jeremy} src={Jeremy} alt="Jeremy Robinson's photo" />
             </div>
                 <img className={styles.line} src={Line} alt={'line'}/>
             <div className={styles.review}>

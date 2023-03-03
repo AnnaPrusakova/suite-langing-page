@@ -10,3 +10,19 @@
     align-items: center;
     margin: 40px auto 80px;
 }
+
+@media (max-width: 750px) {
+    .headerWrapper {
+        max-width: 1110px;
+        margin: 40px auto 80px;
+        padding: 0px 39px;
+    }
+}
+
+@media (max-width: 375px) {
+    .headerWrapper {
+        width: 343px;
+        margin: 0 auto 0;
+        padding: 24px 15px;
+    }
+}

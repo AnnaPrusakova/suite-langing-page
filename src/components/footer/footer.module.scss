@@ -37,6 +37,10 @@
     width: 361px;
 }
 
+.jeremySmall {
+    display: none;
+}
+
 .line {
     align-self: flex-start;
     margin-top: 160px;
@@ -100,6 +104,7 @@
     width: 160px;
     color: $dark-gray;
     font-size: $headling-S;
+    text-align: center;
 }
 
 .socials {
@@ -119,3 +124,92 @@
     opacity: 0.5;
 }
 
+@media (max-width: 750px) {
+    .footer {
+        margin-top: 500px;
+    }
+    .footerWrapper {
+        margin-left: 20px;
+    }
+
+    .footerText {
+        font-size: $footer-font-size;
+    }
+
+    .reviewWrapper {
+        height: 684px;  
+        padding-left: 30px;
+        padding-right: 30px;
+        flex-direction: column;
+        justify-content: space-between;
+        background-position: 51px -186px;
+    }
+
+    .jeremyImg {
+        margin-top: -11rem;
+        height: 395px;
+        width: 243px;
+    }
+    .jeremy {
+        display: none;
+    }
+
+    .jeremySmall {
+        display: block;
+    }
+
+    .line {
+        margin: 0;
+        height: 40px;
+        align-self: center;
+    }
+
+    .review {
+        max-width: 573px;
+        align-items: center;
+    }
+
+    .title {
+        font-size: calc($headling-L / 1.2);
+    }
+
+    .text {
+        text-align: center;
+        font-size: $body-font-size;
+    }
+
+    .authorReview {
+        text-align: center;
+    }
+}
+
+@media (max-width: 375px) {
+    .backgroundWrapper {
+        width: 100%;
+        margin: 0;
+    }
+    .reviewWrapper {
+        padding-left: 16px;
+        padding-right: 16px;
+        max-width: 375px;
+        height: 748px;
+        margin: -300px 0 0;
+        background-image: none;
+    }
+
+    .text {
+        line-height: 32px;
+    }
+
+    .footerWrapper {
+        height: 120px;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        gap: 33px;
+        margin: 50px 0 0;
+    }
+    .social {
+        margin-right: 28px;
+    }
+}

@@ -6,9 +6,9 @@ import HeroLandscape from '../../assets/image-hero-landscape.png';
 const Solution: React.FC<{}> = () => {
     return (
         <main className={styles.solutionWrapper}>
-            <div className={styles.fistBlock}>
+            <div className={styles.firstBlock}>
                 <div className={styles.titleBlock}>
-                    <h1 className={styles.title}>A <strong>super</strong> <span className={styles.solution}>solution</span> for your <strong>business.</strong></h1>
+                    <div className={styles.title}>A <strong>super</strong> <span className={styles.solution}>solution</span> for your <strong>business.</strong></div>
                     <p className={styles.supText}>Our marketing and sales automations help you scale your outreach to get more leads for your company.</p>
                     <div className={styles.btn}><ButtonDefault /></div>
                 </div>
